@@ -12,8 +12,27 @@
     "waterproof": false
   },
   {
-    "serial": "6306-2RS",
+    "serial": "6306-2RS30",
     "innerDiameter": 30,
+    "outerDiameter": 30,
+    "width": 30,
+    "waterproof": true
+  },
+  {
+    "serial": "6306s-2RS",
+    "innerDiameter": 380,
+    "outerDiameter": 30,
+    "waterproof": true
+  },
+  {
+    "serial": "6306s-2RasS",
+    "innerDiameter": 380,
+    "outerDiameter": 350,
+    "waterproof": true
+  },
+  {
+    "serial": "6306aas-2RasS",
+    "innerDiameter": 3180,
     "outerDiameter": 30,
     "waterproof": true
   }

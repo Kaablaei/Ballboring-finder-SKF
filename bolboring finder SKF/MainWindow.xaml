@@ -5,59 +5,157 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:bolboring_finder_SKF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="750" Width="550
-">
-    <StackPanel Margin="20">
+        Title="MainWindow" Height="775" Width="550"
+         FontSize="20"
+        ResizeMode="NoResize">
 
-        <TextBlock Text="Inner Diameter"/>
-        <TextBox
-            Text="{Binding InnerDiameter}" />
-
-        <TextBlock Text="Outer Diameter"
-                   Margin="0,10,0,0"/>
-
-        <TextBox
-            Text="{Binding OuterDiameter}" />
-
-        <CheckBox
-            Content="Waterproof"
-            IsChecked="{Binding Waterproof}"
-            Margin="0,10,0,0"/>
+    <Grid Margin="20">
 
 
-        <Button
-            Content="Search"
-            Command="{Binding SearchCommand}"
-            Height="35"
-            Margin="0,20,0,0"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="220"/>
 
-        <ListBox
-            ItemsSource="{Binding Results}"
-            Margin="0,20,0,0">
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="*"/>
 
-            <ListBox.ItemTemplate>
-                <DataTemplate>
+        </Grid.RowDefinitions>
 
-                    <Border Padding="10">
+        <Grid Grid.Row="0">
 
-                        <StackPanel>
+            <Image
+        Source="/Image.PNG"
+        Stretch="Fill"
+        Opacity="0.9"/>
 
-                            <TextBlock
-                                Text="{Binding Serial}"
-                                FontWeight="Bold"/>
 
-                            <TextBlock
-                                Text="{Binding Type}" />
 
-                        </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1">
 
-                    </Border>
+            <TextBlock
+        Text="Bearing Finder :"
+        HorizontalAlignment="Center"
+        VerticalAlignment="Center"
+        FontSize="18"
+        FontWeight="Bold"/>
+        </Grid>
 
-                </DataTemplate>
-            </ListBox.ItemTemplate>
+        <Grid Grid.Row="2">
 
-        </ListBox>
+            <Grid.RowDefinitions>
 
-    </StackPanel>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+
+                <ColumnDefinition Width="220"/>
+                <ColumnDefinition Width="*"/>
+
+            </Grid.ColumnDefinitions>
+
+
+            <TextBlock
+                Text="Inner Diameter :"
+                VerticalAlignment="Center"
+                Margin="0,10"/>
+
+            <TextBox
+                Grid.Column="1"
+                Text="{Binding InnerDiameter}"
+                Margin="10"
+                Height="40"/>
+
+
+
+            <TextBlock
+                Grid.Row="1"
+                Text="Outer Diameter :"
+                VerticalAlignment="Center"
+                Margin="0,10"/>
+
+            <TextBox
+                Grid.Row="1"
+                Grid.Column="1"
+                Text="{Binding OuterDiameter}"
+                Margin="10"
+                Height="40"/>
+
+            <TextBlock
+                Grid.Row="2"
+                Text="Width :"
+                VerticalAlignment="Center"
+                Margin="0,10"/>
+
+            <TextBox
+                Grid.Row="2"
+                Grid.Column="1"
+                Text="{Binding Width}"
+                Margin="10"
+                Height="40"/>
+
+            <CheckBox
+              Grid.Row="3"
+              Grid.ColumnSpan="2"
+              Content="Metal Shield"
+              IsChecked="{Binding MetalShield}"
+              Margin="0,20,0,0"/>
+
+            <CheckBox
+             Grid.Row="3"
+             Grid.Column="1"
+             Content="Double Side"
+             IsChecked="{Binding DoubleSide}"
+             Margin="0,20,0,0"/>
+
+            <Button
+                Grid.Row="4"
+                Grid.ColumnSpan="2"
+                Content="Search"
+                Command="{Binding SearchCommand}"
+                Height="45"
+                Margin="0,20,0,0"/>
+
+
+            <ListBox
+    Grid.Row="5"
+    Grid.ColumnSpan="2"
+    ItemsSource="{Binding Results}"
+    Height="130"       
+    ScrollViewer.VerticalScrollBarVisibility="Auto"
+    Margin="0,20,0,0">
+
+                <ListBox.ItemTemplate>
+
+                    <DataTemplate>
+
+                        <Border Padding="2">
+
+                            <StackPanel>
+
+                                <TextBlock
+                                    Text="{Binding Serial}"
+                                    FontWeight="Bold"/>
+                            </StackPanel>
+
+                        </Border>
+
+                    </DataTemplate>
+
+                </ListBox.ItemTemplate>
+
+            </ListBox>
+
+        </Grid>
+
+    </Grid>
 
 </Window>

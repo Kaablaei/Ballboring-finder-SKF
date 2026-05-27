@@ -1,6 +1,7 @@
 ﻿using bolboring_finder_SKF.Models;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using Microsoft.VisualBasic.FileIO;
 using System.Collections.ObjectModel;
 
 public partial class MainViewModel : ObservableObject
@@ -14,8 +15,13 @@ public partial class MainViewModel : ObservableObject
     private double? outerDiameter;
 
     [ObservableProperty]
-    private bool? waterproof;
+    private double? width;
 
+    [ObservableProperty]
+    private bool metalShield;
+
+    [ObservableProperty]
+    private bool doubleSide;
     public ObservableCollection<Bearing> Results { get; set; }
 
     public MainViewModel()
@@ -33,11 +39,40 @@ public partial class MainViewModel : ObservableObject
         var bearings = _service.Search(
             InnerDiameter,
             OuterDiameter,
-            Waterproof);
+            width);
+
+        var shieldType = GetShieldType();
 
         foreach (var item in bearings)
         {
+            switch (shieldType)
+            {
+                case ShieldType.Z:
+                    item.Serial += "Z";
+                    break;
+
+                case ShieldType.ZZ:
+                    item.Serial += "ZZ";
+                    break;
+
+                case ShieldType.None:
+                default:
+                    break;
+            }
+
             Results.Add(item);
+     
         }
+
+    }
+    private ShieldType GetShieldType()
+    {
+        if (metalShield && doubleSide)
+            return ShieldType.ZZ;
+
+        if (metalShield)
+            return ShieldType.Z;
+
+        return ShieldType.None;
     }
 }

@@ -33,7 +33,8 @@ public class BearingService
     public List<Bearing> Search(
         double? innerDiameter,
         double? outerDiameter,
-        bool? waterproof
+        double? Width
+
         )
     {
         var query = _bearings.AsQueryable();
@@ -43,10 +44,16 @@ public class BearingService
             query = query.Where(x =>
                 x.InnerDiameter == innerDiameter.Value);
         }
-
-
-
-
+        if (outerDiameter.HasValue)
+        {
+            query = query.Where(x =>
+                x.InnerDiameter == outerDiameter.Value);
+        }
+        if (Width.HasValue)
+        {
+            query = query.Where(x =>
+                x.InnerDiameter == Width.Value);
+        }
         return query.ToList();
     }
 }

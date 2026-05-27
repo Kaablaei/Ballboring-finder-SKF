@@ -11,10 +11,14 @@
 
   <ItemGroup>
     <None Remove="Data\bearings.json" />
+    <None Remove="Image.PNG" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="Data\bearings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image.PNG">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
