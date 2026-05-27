@@ -1,0 +1,20 @@
+[
+  {
+    "serial": "6204-2RS",
+    "innerDiameter": 10,
+    "outerDiameter": 10,
+    "waterproof": true
+  },
+  {
+    "serial": "6205-ZZ",
+    "innerDiameter": 25,
+    "outerDiameter": 25,
+    "waterproof": false
+  },
+  {
+    "serial": "6306-2RS",
+    "innerDiameter": 30,
+    "outerDiameter": 30,
+    "waterproof": true
+  }
+]

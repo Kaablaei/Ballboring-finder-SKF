@@ -19,6 +19,7 @@ namespace bolboring_finder_SKF
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new MainViewModel();
         }
     }
 }
