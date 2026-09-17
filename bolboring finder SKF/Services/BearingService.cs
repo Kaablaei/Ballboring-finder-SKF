@@ -26,9 +26,8 @@ public class BearingService
             PropertyNameCaseInsensitive = true
         };
 
-        _bearings = JsonSerializer.Deserialize<List<Bearing>>(
-            json,
-            options);
+        _bearings = JsonSerializer.Deserialize<List<Bearing>>(json, options)
+                            ?? new List<Bearing>();
     }
     public List<Bearing> Search(
         double? innerDiameter,

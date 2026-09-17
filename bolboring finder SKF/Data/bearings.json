@@ -1,39 +1,770 @@
 [
   {
-    "serial": "6204-2RS",
+    "serial": "6000",
     "innerDiameter": 10,
-    "outerDiameter": 10,
-    "waterproof": true
+    "outerDiameter": 26,
+    "width": 8,
+    "waterproof": false,
+    "sealType": "Open"
   },
   {
-    "serial": "6205-ZZ",
+    "serial": "6000-Z",
+    "innerDiameter": 10,
+    "outerDiameter": 26,
+    "width": 8,
+    "waterproof": false,
+    "sealType": "Single metal shield"
+  },
+  {
+    "serial": "6000-2Z",
+    "innerDiameter": 10,
+    "outerDiameter": 26,
+    "width": 8,
+    "waterproof": false,
+    "sealType": "Double metal shield"
+  },
+  {
+    "serial": "6001-2Z",
+    "innerDiameter": 12,
+    "outerDiameter": 28,
+    "width": 8,
+    "waterproof": false,
+    "sealType": "Double metal shield"
+  },
+  {
+    "serial": "6001-RS1",
+    "innerDiameter": 12,
+    "outerDiameter": 28,
+    "width": 8,
+    "waterproof": true,
+    "sealType": "Single rubber seal"
+  },
+  {
+    "serial": "6001-2RS1",
+    "innerDiameter": 12,
+    "outerDiameter": 28,
+    "width": 8,
+    "waterproof": true,
+    "sealType": "Double rubber seal"
+  },
+  {
+    "serial": "6002",
+    "innerDiameter": 15,
+    "outerDiameter": 32,
+    "width": 9,
+    "waterproof": false,
+    "sealType": "Open"
+  },
+  {
+    "serial": "6002-Z",
+    "innerDiameter": 15,
+    "outerDiameter": 32,
+    "width": 9,
+    "waterproof": false,
+    "sealType": "Single metal shield"
+  },
+  {
+    "serial": "6002-2Z",
+    "innerDiameter": 15,
+    "outerDiameter": 32,
+    "width": 9,
+    "waterproof": false,
+    "sealType": "Double metal shield"
+  },
+  {
+    "serial": "6003-2Z",
+    "innerDiameter": 17,
+    "outerDiameter": 35,
+    "width": 10,
+    "waterproof": false,
+    "sealType": "Double metal shield"
+  },
+  {
+    "serial": "6003-RS1",
+    "innerDiameter": 17,
+    "outerDiameter": 35,
+    "width": 10,
+    "waterproof": true,
+    "sealType": "Single rubber seal"
+  },
+  {
+    "serial": "6003-2RS1",
+    "innerDiameter": 17,
+    "outerDiameter": 35,
+    "width": 10,
+    "waterproof": true,
+    "sealType": "Double rubber seal"
+  },
+  {
+    "serial": "6004",
+    "innerDiameter": 20,
+    "outerDiameter": 42,
+    "width": 12,
+    "waterproof": false,
+    "sealType": "Open"
+  },
+  {
+    "serial": "6004-Z",
+    "innerDiameter": 20,
+    "outerDiameter": 42,
+    "width": 12,
+    "waterproof": false,
+    "sealType": "Single metal shield"
+  },
+  {
+    "serial": "6004-2Z",
+    "innerDiameter": 20,
+    "outerDiameter": 42,
+    "width": 12,
+    "waterproof": false,
+    "sealType": "Double metal shield"
+  },
+  {
+    "serial": "6005-2Z",
     "innerDiameter": 25,
-    "outerDiameter": 25,
-    "waterproof": false
+    "outerDiameter": 47,
+    "width": 12,
+    "waterproof": false,
+    "sealType": "Double metal shield"
   },
   {
-    "serial": "6306-2RS30",
+    "serial": "6005-RS1",
+    "innerDiameter": 25,
+    "outerDiameter": 47,
+    "width": 12,
+    "waterproof": true,
+    "sealType": "Single rubber seal"
+  },
+  {
+    "serial": "6005-2RS1",
+    "innerDiameter": 25,
+    "outerDiameter": 47,
+    "width": 12,
+    "waterproof": true,
+    "sealType": "Double rubber seal"
+  },
+  {
+    "serial": "6006",
     "innerDiameter": 30,
-    "outerDiameter": 30,
-    "width": 30,
-    "waterproof": true
+    "outerDiameter": 55,
+    "width": 13,
+    "waterproof": false,
+    "sealType": "Open"
   },
   {
-    "serial": "6306s-2RS",
-    "innerDiameter": 380,
-    "outerDiameter": 30,
-    "waterproof": true
+    "serial": "6006-Z",
+    "innerDiameter": 30,
+    "outerDiameter": 55,
+    "width": 13,
+    "waterproof": false,
+    "sealType": "Single metal shield"
   },
   {
-    "serial": "6306s-2RasS",
-    "innerDiameter": 380,
-    "outerDiameter": 350,
-    "waterproof": true
+    "serial": "6006-2Z",
+    "innerDiameter": 30,
+    "outerDiameter": 55,
+    "width": 13,
+    "waterproof": false,
+    "sealType": "Double metal shield"
   },
   {
-    "serial": "6306aas-2RasS",
-    "innerDiameter": 3180,
+    "serial": "6007-2Z",
+    "innerDiameter": 35,
+    "outerDiameter": 62,
+    "width": 14,
+    "waterproof": false,
+    "sealType": "Double metal shield"
+  },
+  {
+    "serial": "6007-RS1",
+    "innerDiameter": 35,
+    "outerDiameter": 62,
+    "width": 14,
+    "waterproof": true,
+    "sealType": "Single rubber seal"
+  },
+  {
+    "serial": "6007-2RS1",
+    "innerDiameter": 35,
+    "outerDiameter": 62,
+    "width": 14,
+    "waterproof": true,
+    "sealType": "Double rubber seal"
+  },
+  {
+    "serial": "6008",
+    "innerDiameter": 40,
+    "outerDiameter": 68,
+    "width": 15,
+    "waterproof": false,
+    "sealType": "Open"
+  },
+  {
+    "serial": "6008-Z",
+    "innerDiameter": 40,
+    "outerDiameter": 68,
+    "width": 15,
+    "waterproof": false,
+    "sealType": "Single metal shield"
+  },
+  {
+    "serial": "6008-2Z",
+    "innerDiameter": 40,
+    "outerDiameter": 68,
+    "width": 15,
+    "waterproof": false,
+    "sealType": "Double metal shield"
+  },
+  {
+    "serial": "6009-2Z",
+    "innerDiameter": 45,
+    "outerDiameter": 75,
+    "width": 16,
+    "waterproof": false,
+    "sealType": "Double metal shield"
+  },
+  {
+    "serial": "6009-RS1",
+    "innerDiameter": 45,
+    "outerDiameter": 75,
+    "width": 16,
+    "waterproof": true,
+    "sealType": "Single rubber seal"
+  },
+  {
+    "serial": "6009-2RS1",
+    "innerDiameter": 45,
+    "outerDiameter": 75,
+    "width": 16,
+    "waterproof": true,
+    "sealType": "Double rubber seal"
+  },
+  {
+    "serial": "6200",
+    "innerDiameter": 10,
     "outerDiameter": 30,
-    "waterproof": true
+    "width": 9,
+    "waterproof": false,
+    "sealType": "Open"
+  },
+  {
+    "serial": "6200-Z",
+    "innerDiameter": 10,
+    "outerDiameter": 30,
+    "width": 9,
+    "waterproof": false,
+    "sealType": "Single metal shield"
+  },
+  {
+    "serial": "6200-2Z",
+    "innerDiameter": 10,
+    "outerDiameter": 30,
+    "width": 9,
+    "waterproof": false,
+    "sealType": "Double metal shield"
+  },
+  {
+    "serial": "6201-2Z",
+    "innerDiameter": 12,
+    "outerDiameter": 32,
+    "width": 10,
+    "waterproof": false,
+    "sealType": "Double metal shield"
+  },
+  {
+    "serial": "6201-RS1",
+    "innerDiameter": 12,
+    "outerDiameter": 32,
+    "width": 10,
+    "waterproof": true,
+    "sealType": "Single rubber seal"
+  },
+  {
+    "serial": "6201-2RS1",
+    "innerDiameter": 12,
+    "outerDiameter": 32,
+    "width": 10,
+    "waterproof": true,
+    "sealType": "Double rubber seal"
+  },
+  {
+    "serial": "6202",
+    "innerDiameter": 15,
+    "outerDiameter": 35,
+    "width": 11,
+    "waterproof": false,
+    "sealType": "Open"
+  },
+  {
+    "serial": "6202-Z",
+    "innerDiameter": 15,
+    "outerDiameter": 35,
+    "width": 11,
+    "waterproof": false,
+    "sealType": "Single metal shield"
+  },
+  {
+    "serial": "6202-2Z",
+    "innerDiameter": 15,
+    "outerDiameter": 35,
+    "width": 11,
+    "waterproof": false,
+    "sealType": "Double metal shield"
+  },
+  {
+    "serial": "6203-2Z",
+    "innerDiameter": 17,
+    "outerDiameter": 40,
+    "width": 12,
+    "waterproof": false,
+    "sealType": "Double metal shield"
+  },
+  {
+    "serial": "6203-RS1",
+    "innerDiameter": 17,
+    "outerDiameter": 40,
+    "width": 12,
+    "waterproof": true,
+    "sealType": "Single rubber seal"
+  },
+  {
+    "serial": "6203-2RS1",
+    "innerDiameter": 17,
+    "outerDiameter": 40,
+    "width": 12,
+    "waterproof": true,
+    "sealType": "Double rubber seal"
+  },
+  {
+    "serial": "6204",
+    "innerDiameter": 20,
+    "outerDiameter": 47,
+    "width": 14,
+    "waterproof": false,
+    "sealType": "Open"
+  },
+  {
+    "serial": "6204-Z",
+    "innerDiameter": 20,
+    "outerDiameter": 47,
+    "width": 14,
+    "waterproof": false,
+    "sealType": "Single metal shield"
+  },
+  {
+    "serial": "6204-2Z",
+    "innerDiameter": 20,
+    "outerDiameter": 47,
+    "width": 14,
+    "waterproof": false,
+    "sealType": "Double metal shield"
+  },
+  {
+    "serial": "6205-2Z",
+    "innerDiameter": 25,
+    "outerDiameter": 52,
+    "width": 15,
+    "waterproof": false,
+    "sealType": "Double metal shield"
+  },
+  {
+    "serial": "6205-RS1",
+    "innerDiameter": 25,
+    "outerDiameter": 52,
+    "width": 15,
+    "waterproof": true,
+    "sealType": "Single rubber seal"
+  },
+  {
+    "serial": "6205-2RS1",
+    "innerDiameter": 25,
+    "outerDiameter": 52,
+    "width": 15,
+    "waterproof": true,
+    "sealType": "Double rubber seal"
+  },
+  {
+    "serial": "6206",
+    "innerDiameter": 30,
+    "outerDiameter": 62,
+    "width": 16,
+    "waterproof": false,
+    "sealType": "Open"
+  },
+  {
+    "serial": "6206-Z",
+    "innerDiameter": 30,
+    "outerDiameter": 62,
+    "width": 16,
+    "waterproof": false,
+    "sealType": "Single metal shield"
+  },
+  {
+    "serial": "6206-2Z",
+    "innerDiameter": 30,
+    "outerDiameter": 62,
+    "width": 16,
+    "waterproof": false,
+    "sealType": "Double metal shield"
+  },
+  {
+    "serial": "6207-2Z",
+    "innerDiameter": 35,
+    "outerDiameter": 72,
+    "width": 17,
+    "waterproof": false,
+    "sealType": "Double metal shield"
+  },
+  {
+    "serial": "6207-RS1",
+    "innerDiameter": 35,
+    "outerDiameter": 72,
+    "width": 17,
+    "waterproof": true,
+    "sealType": "Single rubber seal"
+  },
+  {
+    "serial": "6207-2RS1",
+    "innerDiameter": 35,
+    "outerDiameter": 72,
+    "width": 17,
+    "waterproof": true,
+    "sealType": "Double rubber seal"
+  },
+  {
+    "serial": "6208",
+    "innerDiameter": 40,
+    "outerDiameter": 80,
+    "width": 18,
+    "waterproof": false,
+    "sealType": "Open"
+  },
+  {
+    "serial": "6208-Z",
+    "innerDiameter": 40,
+    "outerDiameter": 80,
+    "width": 18,
+    "waterproof": false,
+    "sealType": "Single metal shield"
+  },
+  {
+    "serial": "6208-2Z",
+    "innerDiameter": 40,
+    "outerDiameter": 80,
+    "width": 18,
+    "waterproof": false,
+    "sealType": "Double metal shield"
+  },
+  {
+    "serial": "6209-2Z",
+    "innerDiameter": 45,
+    "outerDiameter": 85,
+    "width": 19,
+    "waterproof": false,
+    "sealType": "Double metal shield"
+  },
+  {
+    "serial": "6209-RS1",
+    "innerDiameter": 45,
+    "outerDiameter": 85,
+    "width": 19,
+    "waterproof": true,
+    "sealType": "Single rubber seal"
+  },
+  {
+    "serial": "6209-2RS1",
+    "innerDiameter": 45,
+    "outerDiameter": 85,
+    "width": 19,
+    "waterproof": true,
+    "sealType": "Double rubber seal"
+  },
+  {
+    "serial": "6210",
+    "innerDiameter": 50,
+    "outerDiameter": 90,
+    "width": 20,
+    "waterproof": false,
+    "sealType": "Open"
+  },
+  {
+    "serial": "6210-Z",
+    "innerDiameter": 50,
+    "outerDiameter": 90,
+    "width": 20,
+    "waterproof": false,
+    "sealType": "Single metal shield"
+  },
+  {
+    "serial": "6210-2Z",
+    "innerDiameter": 50,
+    "outerDiameter": 90,
+    "width": 20,
+    "waterproof": false,
+    "sealType": "Double metal shield"
+  },
+  {
+    "serial": "6300",
+    "innerDiameter": 10,
+    "outerDiameter": 35,
+    "width": 11,
+    "waterproof": false,
+    "sealType": "Open"
+  },
+  {
+    "serial": "6300-Z",
+    "innerDiameter": 10,
+    "outerDiameter": 35,
+    "width": 11,
+    "waterproof": false,
+    "sealType": "Single metal shield"
+  },
+  {
+    "serial": "6300-2Z",
+    "innerDiameter": 10,
+    "outerDiameter": 35,
+    "width": 11,
+    "waterproof": false,
+    "sealType": "Double metal shield"
+  },
+  {
+    "serial": "6301-2Z",
+    "innerDiameter": 12,
+    "outerDiameter": 37,
+    "width": 12,
+    "waterproof": false,
+    "sealType": "Double metal shield"
+  },
+  {
+    "serial": "6301-RS1",
+    "innerDiameter": 12,
+    "outerDiameter": 37,
+    "width": 12,
+    "waterproof": true,
+    "sealType": "Single rubber seal"
+  },
+  {
+    "serial": "6301-2RS1",
+    "innerDiameter": 12,
+    "outerDiameter": 37,
+    "width": 12,
+    "waterproof": true,
+    "sealType": "Double rubber seal"
+  },
+  {
+    "serial": "6302",
+    "innerDiameter": 15,
+    "outerDiameter": 42,
+    "width": 13,
+    "waterproof": false,
+    "sealType": "Open"
+  },
+  {
+    "serial": "6302-Z",
+    "innerDiameter": 15,
+    "outerDiameter": 42,
+    "width": 13,
+    "waterproof": false,
+    "sealType": "Single metal shield"
+  },
+  {
+    "serial": "6302-2Z",
+    "innerDiameter": 15,
+    "outerDiameter": 42,
+    "width": 13,
+    "waterproof": false,
+    "sealType": "Double metal shield"
+  },
+  {
+    "serial": "6303-2Z",
+    "innerDiameter": 17,
+    "outerDiameter": 47,
+    "width": 14,
+    "waterproof": false,
+    "sealType": "Double metal shield"
+  },
+  {
+    "serial": "6303-RS1",
+    "innerDiameter": 17,
+    "outerDiameter": 47,
+    "width": 14,
+    "waterproof": true,
+    "sealType": "Single rubber seal"
+  },
+  {
+    "serial": "6303-2RS1",
+    "innerDiameter": 17,
+    "outerDiameter": 47,
+    "width": 14,
+    "waterproof": true,
+    "sealType": "Double rubber seal"
+  },
+  {
+    "serial": "6304",
+    "innerDiameter": 20,
+    "outerDiameter": 52,
+    "width": 15,
+    "waterproof": false,
+    "sealType": "Open"
+  },
+  {
+    "serial": "6304-Z",
+    "innerDiameter": 20,
+    "outerDiameter": 52,
+    "width": 15,
+    "waterproof": false,
+    "sealType": "Single metal shield"
+  },
+  {
+    "serial": "6304-2Z",
+    "innerDiameter": 20,
+    "outerDiameter": 52,
+    "width": 15,
+    "waterproof": false,
+    "sealType": "Double metal shield"
+  },
+  {
+    "serial": "6305-2Z",
+    "innerDiameter": 25,
+    "outerDiameter": 62,
+    "width": 17,
+    "waterproof": false,
+    "sealType": "Double metal shield"
+  },
+  {
+    "serial": "6305-RS1",
+    "innerDiameter": 25,
+    "outerDiameter": 62,
+    "width": 17,
+    "waterproof": true,
+    "sealType": "Single rubber seal"
+  },
+  {
+    "serial": "6305-2RS1",
+    "innerDiameter": 25,
+    "outerDiameter": 62,
+    "width": 17,
+    "waterproof": true,
+    "sealType": "Double rubber seal"
+  },
+  {
+    "serial": "6306",
+    "innerDiameter": 30,
+    "outerDiameter": 72,
+    "width": 19,
+    "waterproof": false,
+    "sealType": "Open"
+  },
+  {
+    "serial": "6306-Z",
+    "innerDiameter": 30,
+    "outerDiameter": 72,
+    "width": 19,
+    "waterproof": false,
+    "sealType": "Single metal shield"
+  },
+  {
+    "serial": "6306-2Z",
+    "innerDiameter": 30,
+    "outerDiameter": 72,
+    "width": 19,
+    "waterproof": false,
+    "sealType": "Double metal shield"
+  },
+  {
+    "serial": "6307-2Z",
+    "innerDiameter": 35,
+    "outerDiameter": 80,
+    "width": 21,
+    "waterproof": false,
+    "sealType": "Double metal shield"
+  },
+  {
+    "serial": "6307-RS1",
+    "innerDiameter": 35,
+    "outerDiameter": 80,
+    "width": 21,
+    "waterproof": true,
+    "sealType": "Single rubber seal"
+  },
+  {
+    "serial": "6307-2RS1",
+    "innerDiameter": 35,
+    "outerDiameter": 80,
+    "width": 21,
+    "waterproof": true,
+    "sealType": "Double rubber seal"
+  },
+  {
+    "serial": "6308",
+    "innerDiameter": 40,
+    "outerDiameter": 90,
+    "width": 23,
+    "waterproof": false,
+    "sealType": "Open"
+  },
+  {
+    "serial": "6308-Z",
+    "innerDiameter": 40,
+    "outerDiameter": 90,
+    "width": 23,
+    "waterproof": false,
+    "sealType": "Single metal shield"
+  },
+  {
+    "serial": "6308-2Z",
+    "innerDiameter": 40,
+    "outerDiameter": 90,
+    "width": 23,
+    "waterproof": false,
+    "sealType": "Double metal shield"
+  },
+  {
+    "serial": "6309-2Z",
+    "innerDiameter": 45,
+    "outerDiameter": 100,
+    "width": 25,
+    "waterproof": false,
+    "sealType": "Double metal shield"
+  },
+  {
+    "serial": "6309-RS1",
+    "innerDiameter": 45,
+    "outerDiameter": 100,
+    "width": 25,
+    "waterproof": true,
+    "sealType": "Single rubber seal"
+  },
+  {
+    "serial": "6309-2RS1",
+    "innerDiameter": 45,
+    "outerDiameter": 100,
+    "width": 25,
+    "waterproof": true,
+    "sealType": "Double rubber seal"
+  },
+  {
+    "serial": "6310",
+    "innerDiameter": 50,
+    "outerDiameter": 110,
+    "width": 27,
+    "waterproof": false,
+    "sealType": "Open"
+  },
+  {
+    "serial": "6310-Z",
+    "innerDiameter": 50,
+    "outerDiameter": 110,
+    "width": 27,
+    "waterproof": false,
+    "sealType": "Single metal shield"
+  },
+  {
+    "serial": "6310-2Z",
+    "innerDiameter": 50,
+    "outerDiameter": 110,
+    "width": 27,
+    "waterproof": false,
+    "sealType": "Double metal shield"
   }
 ]
